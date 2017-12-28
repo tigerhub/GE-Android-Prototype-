@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login4"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/contactadvice"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/contactreport_listview"
+        android:layout_below="@+id/contactreport_title"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/reportAdvice"
+        android:textColor="@color/white" />
+
+    <ListView
+        android:id="@+id/contactreport_listview"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/contactadvice"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/responsible_Text"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/contactreport_listview"
+        android:layout_below="@+id/contactreport_listview"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/responsibleNotice"
+        android:textColor="@color/white" />
+
+    <ListView
+        android:id="@+id/responsible_listview"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:layout_alignStart="@+id/contactreport_listview"
+        android:layout_below="@+id/responsible_Text" />
+
+    <Button
+        android:id="@+id/contactSendReport_btn"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@color/red"
+        android:text="@string/sendreport_btn"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/contactreport_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:textColor="@color/white"
+        android:textSize="37sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Predix GE</string>
+
+    <string name="cancel_btn">Cancel</string>
+    <string name="save_btn">Save</string>
+    <string name="home_btn">Home</string>
+    <string name="logout_btn">Log Out</string>
+
+    <string name="slogan">From Ge. To Everyone.</string>
+    <string name="username">Username</string>
+
+
+    <!-- - SIGN UP STRINGS  <!- -->
+    <string name="signup_title">Register</string>
+    <string name="user_username">Enter Your Username </string>
+    <string name="user_password">Enter Your Password</string>
+    <string name="user_password2">Retype Password</string>
+    <string name="user_phone">Enter Phone Number</string>
+    <string name="user_name">Enter Full Name</string>
+
+    <!-- - HOME SCREEN  STRINGS  <!- -->
+    <string name="homescreen">Home</string>
+    <string name="contact">Contacts</string>
+    <string name="sendreport">Send Reports</string>
+    <string name="viewmachines">View Machines</string>
+
+
+    <!-- - VIEW MACHINES STRINGS <!- -->
+
+    <string name="viewmachine_title">All Machines</string>
+    <string name="viewanom_title">All Anomalies</string>
+
+
+
+    <!-- - REPORT PAGE  STRINGS  <!- -->
+    <string name="report_title">Send Report</string>
+    <string name="report_message">Please type SMS Message Here</string>
+    <string name="report_machineID">Please enter the machine ID</string>
+    <string name="employee_name">Employee Name</string>
+
+
+    <!-- - ALL CONTACT RELATED STRINGS  <!- -->
+    <string name="reportAdvice">Please Select Additional Contacts</string>
+    <string name="responsibleNotice">Employees Responsible:</string>
+    <string name="allcontact_title">Contact List</string>
+    <string name="sendreport_btn">Send Report</string>
+
+        <string name="contact_name">Contact Name</string>
+        <string name="full_name">Enter Full Name</string>
+        <string name="phone_number">Enter Phone Number</string>
+        <string name="contact_notes">Notes</string>
+    </resources>

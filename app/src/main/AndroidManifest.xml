@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="manda094.finalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ge_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+        android:name=".HomeScreen"
+        android:label="@string/app_name"
+        android:parentActivityName=".login_activity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".login_activity"/>
+
+        </activity>
+        <activity
+            android:name=".user_profile_activity"
+            android:label="@string/app_name"
+            android:parentActivityName=".login_activity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".login_activity"/>
+
+        </activity>
+        <activity
+            android:name=".Report_page"
+            android:label="@string/report_title"
+            android:parentActivityName=".HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeScreen"/>
+
+        </activity>
+        <activity
+            android:name=".contact_page"
+            android:label="@string/app_name"
+            android:parentActivityName=".allcontact_page">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".allcontact_page"/>
+
+        </activity>
+        <activity
+            android:name=".allcontact_page"
+            android:label="@string/app_name"
+            android:parentActivityName=".HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeScreen"/>
+
+        </activity>
+        <activity
+            android:name=".Reportcontact"
+            android:label="@string/app_name"
+            android:parentActivityName=".Report_page">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Report_page"/>
+
+        </activity>
+        <activity
+            android:name=".View_Machines"
+            android:label="@string/app_name"
+            android:parentActivityName=".HomeScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeScreen"/>
+
+        </activity>
+
+        <activity
+            android:name=".login_activity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_Anom"></activity>
+    </application>
+
+</manifest>
